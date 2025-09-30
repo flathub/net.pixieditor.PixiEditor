@@ -18,7 +18,6 @@ finish-args:
   - --socket=x11
   - --share=ipc
   - --share=network
-  - --filesystem=host
   - --filesystem=xdg-download
   - --filesystem=xdg-documents
   - --filesystem=xdg-pictures
