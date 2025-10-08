@@ -43,7 +43,7 @@ modules:
         sha256: b7d4d944c88503e4f21d84af07ac293e3440b1b6210bfd7fe78e0afd92c23bc2
       - type: git
         url: https://github.com/PixiEditor/PixiEditor.git
-        commit: 071af0c1bc49a38a41519377c340dcded5b411e9
+        commit: e5672aca76e5f089fc05e4f99764d5f23d9c9af8
         dest: 'PixiEditor'
     build-commands:
       - export WASI_SDK_PATH="$(realpath wasi-sdk-27.0-x86_64-linux)"
